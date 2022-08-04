@@ -1,4 +1,4 @@
-# Audio Relationship Protocol (ARP) Contracts
+# ARP Contracts
 
 Author: Arpeggi Labs
 
