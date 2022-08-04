@@ -3,13 +3,13 @@ pragma solidity ^0.8.9;
 
 interface IAudioRelationshipProtocol {
     /// @notice Schema for ARP Media stored within ARP
-    /// @param mediaId
-    /// @param version
-    /// @param artistAddress
-    /// @param dataUri
-    /// @param metadataUri
-    /// @param subcomponents
-    /// @param originToken
+    /// @param mediaId the ARP ID of the registered media
+    /// @param version the schema version of the registered media 
+    /// @param artistAddress address of the artist who created this media
+    /// @param dataUri URL of the actual data
+    /// @param metadataUri JSON string describing the metadata (or, URL of the JSON string), following the ARP metadata schema
+    /// @param subcomponents array of ARP IDs of subcomponents used in this media (e.g. list of samples used in a stem)
+    /// @param originToken optional reference to any ERC-721 compliant token on any EVM-compatible chain representing this media
     struct Media {
         uint256 mediaId;
         uint256 version;
