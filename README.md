@@ -6,7 +6,7 @@ Docs: https://docs.arpeggi.io/faq/build-on-arpeggi
 
 ## What is the Audio Relationship Protocol (ARP)?
 
-The Audio Relationship Protocol (ARP) is a composable on-chain registry for music building blocks. ARP is decentralized, transparent and trustless, allowing musicians to permissionlessly use each other's work and unlocking music’s full potential as a creative form.
+The Audio Relationship Protocol (ARP) is a composable on-chain registry for music primitives. ARP is decentralized, transparent and trustless.
 
 ## Code
 
